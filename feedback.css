@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200..900;1,200..900&family=Grand+Hotel&family=Irish+Grover&family=Leckerli+One&family=Miniver&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Pixelify+Sans:wght@400..700&family=Poller+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Grand Hotel", cursive;
+    background-image: url(images/bg\ pc.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+header {
+    background: linear-gradient(to right, #83e2c7a3, #626527d8);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2%;
+    padding: 2%;
+    border-radius: 50px;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-right: 50px;
+    gap: 50px;
+}
+
+a {
+    color: #83E2C7;
+    text-decoration: none;
+}
+
+h1 {
+    font-family: "Irish Grover", system-ui;
+    color: #FFF0B3;
+}
+
+main {
+    background-color: #ffffff9d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 5%;
+    padding: 5%;
+    border-radius: 12px;
+    border: #478f28 solid 5px;
+}
+
+h2 {
+    font-family: "Irish Grover", system-ui;
+    color: #478f28;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 3%;
+    gap: 30px;
+}
+
+input {
+    width: 300px;
+    height: 35px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    text-align: center;
+}
+
+textarea {
+    width: 300px;
+    height: 150px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    text-align: center;
+    resize: none;
+    
+}
+
+footer {
+    background: linear-gradient(to right, #8f1313ec, #591e0eee);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2%;
+    padding: 2%;
+    border-radius: 50px;
+}
+
+h6 {
+    font-family: "Irish Grover", system-ui;
+    color: #ffffff;
+}
+
+button {
+    background-color: rgb(74, 173, 32);
+    color: #ffffff;
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+}
+
+button:hover {
+    color: rgb(74, 173, 32);
+    background-color: #ffffff;
+}

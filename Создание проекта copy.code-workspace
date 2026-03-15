@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../Создание проекта"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Komobore"
+	}
+}

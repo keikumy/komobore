@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200..900;1,200..900&family=Grand+Hotel&family=Irish+Grover&family=Leckerli+One&family=Megrim&family=Miniver&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Pixelify+Sans:wght@400..700&family=Poller+One&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Grand Hotel", cursive;
+    background-image: url(images/bg2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+header {
+    background: linear-gradient(to right, #f19243a3, #5b2514e2);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2%;
+    padding: 2%;
+    border-radius: 50px;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-right: 50px;
+    gap: 50px;
+}
+
+a {
+    color: #fff8d8;
+    text-decoration: none;
+}
+
+h1 {
+    font-family: "Irish Grover", system-ui;
+    color: #FFF0B3;
+}
+
+.conteiner {
+    background-color: #ffffffd1;
+    background-image: url(images/\ -9.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: 5% 10%;
+    padding: 5%;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+h2 {
+    color: #ffefdb;
+    font-family: "Megrim", system-ui;
+    font-size: 50px;
+}
+
+p {
+    color: #ffffff;
+    line-height: 40px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.images {
+    background-color: #ffffffcd;
+    margin: 5%;
+    padding: 5%;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.flower img {
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+}
+
+.flower {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    border: 5px solid rgba(64, 25, 9, 0.783);
+    border-radius: 20px;
+}
+
+
+footer {
+    background: linear-gradient(to right, #8f1313ec, #591e0eee);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2%;
+    padding: 2%;
+    border-radius: 50px;
+}
+
+h6 {
+    font-family: "Irish Grover", system-ui;
+    color: #f1d2bb;
+}
+
+button {
+    background-color: rgba(236, 152, 74, 0.86);
+    color: #ebdeb5;
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+}
+
+button:hover {
+    color: rgb(74, 173, 32);
+    background-color: #ffffff;
+}
